@@ -2,7 +2,7 @@ import 'package:path/path.dart';
 
 import 'package:sqflite/sqflite.dart';
 
-class MyDb {
+class DBgeek {
   late Database db;
 
   Future open() async {
