@@ -35,7 +35,7 @@ class DBgeek {
 
                         precoProduto varchar(8) not null, 
 
-                        FornecedorProduto varchar(20) not null
+                        fornecedorProduto varchar(20) not null
 
                     ); 
 

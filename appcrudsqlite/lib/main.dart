@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
             onPressed: () {
               Navigator.push(context,
               MaterialPageRoute(builder: (BuildContext context) {
-              return ListProduto();
+              return ListProdutos();
               }));
             },
             child: Text("Listar"),

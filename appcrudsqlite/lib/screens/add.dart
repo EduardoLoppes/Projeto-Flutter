@@ -74,7 +74,7 @@ class _Add extends State<Add> {
               ElevatedButton(
                   onPressed: () {
                     mydb.db.rawInsert(
-                        "INSERT INTO books(nomeProduto, roll_no, TipoProduto, precoProduto, fornecedorProduto) VALUES (?, ?, ?, ?, ?);",
+                        "INSERT INTO Produtos(nomeProduto, roll_no, TipoProduto, precoProduto, fornecedorProduto) VALUES (?, ?, ?, ?, ?);",
                         [
                           nomeProduto.text,
                           rollno.text,
